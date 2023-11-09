@@ -56,7 +56,7 @@ const Projects = () => {
           />
           <ProjectCard
             src="/blog.png"
-            title="Blog Website(render~coldstart)"
+            title="Blog Website(coldstart)"
             href="https://node-mongo-blogweb.onrender.com/"
             description="Node / Express / MongoDB/ Atlas /  Mongoose"
           />
