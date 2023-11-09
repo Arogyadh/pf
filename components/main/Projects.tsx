@@ -38,7 +38,7 @@ const Projects = () => {
           />
           <ProjectCard
             src="/newsletter.png"
-            title="Simple signup page for newsletter"
+            title="SignUp page newsletter(render~coldstart)"
             href="https://rendercheck-arogyadh.onrender.com/"
             description="Node / Express / Mailchimp"
           />
@@ -56,7 +56,7 @@ const Projects = () => {
           />
           <ProjectCard
             src="/blog.png"
-            title="Simple Blog Website"
+            title="Blog Website(render~coldstart)"
             href="https://node-mongo-blogweb.onrender.com/"
             description="Node / Express / MongoDB/ Atlas /  Mongoose"
           />
