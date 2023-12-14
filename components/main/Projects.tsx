@@ -25,23 +25,30 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <ProjectCard
+            src="/movie.png"
+            title="Movie Ticketing App"
+            href="https://tickticketing.netlify.app/"
+            description="Next.js 14 / Tailwind "
+          />
+          <ProjectCard
+            src="/NTB.png"
+            title="NTB Website redesign"
+            href="https://main--ntbnepal.netlify.app/"
+            description="Next.js 14 / Tailwind"
+          />
+          <ProjectCard
             src="/geritch.png"
-            title="Modern Restaurant Landing Page"
+            title="Restaurant Landing Page"
             href="https://geritch-arogya.netlify.app/"
             description="React.js / GSAP"
           />
           <ProjectCard
             src="/travel.png"
-            title="Travel Companion Landing Page"
+            title="Travel Landing Page"
             href="https://kaleidoscopic-speculoos-59cd9b.netlify.app/"
             description="React.js / Next.js 13 / Tailwind"
           />
-          <ProjectCard
-            src="/newsletter.png"
-            title="SignUp page newsletter(render~coldstart)"
-            href="https://rendercheck-arogyadh.onrender.com/"
-            description="Node / Express / Mailchimp"
-          />
+
           <ProjectCard
             src="/snoofy.png"
             title="Snoofy Web for my doggo"
@@ -53,12 +60,6 @@ const Projects = () => {
             title="Youtube Clone"
             href="https://y0utubecl0ne.netlify.app/"
             description="React.js / MUI 5 / RapidAPI"
-          />
-          <ProjectCard
-            src="/blog.png"
-            title="Blog Website(coldstart)"
-            href="https://node-mongo-blogweb.onrender.com/"
-            description="Node / Express / MongoDB/ Atlas /  Mongoose"
           />
         </div>
       </div>

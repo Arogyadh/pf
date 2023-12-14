@@ -43,8 +43,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 w-full text-[15px] lg:text-[20px]"
         >
-          I&apos;m a Web Developer with experience in Responsive & Dynamic Web
-          Design. Check out my projects and skills.
+          I&apos;m a Web Developer who enjoys making websites both stylish and
+          user-friendly.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
