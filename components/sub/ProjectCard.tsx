@@ -6,14 +6,15 @@ interface Props {
   src: string;
   title: string;
   description: string;
+  code: string;
   href: string;
 }
 
-const ProjectCard = ({ src, title, description, href }: Props) => {
+const ProjectCard = ({ src, title, code, description, href }: Props) => {
   const [hovered, setHovered] = useState(false);
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">
-      <div className="max-h-[350px] relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+      <div className="max-h-[400px] relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
         <Image
           src={src}
           alt={title}
@@ -33,6 +34,16 @@ const ProjectCard = ({ src, title, description, href }: Props) => {
             {title}
           </h1>
           <p className="mt-2 text-gray-300">{description}</p>
+        </div>
+        <div className="text-gray-500 text-center p-2 bg-gray-200 hover:bg-gradient-to-t from-[#0c26ed] via-gray-200 to-[#FFF]">
+          <a
+            className="hover:text-black font-semibold"
+            href={code}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Project Code
+          </a>
         </div>
       </div>
     </a>

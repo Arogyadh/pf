@@ -27,30 +27,35 @@ const Projects = () => {
             src="/foodordering.png"
             title="Food Ordering App"
             href="https://main--arogya-food-ordering.netlify.app/"
+            code="https://github.com/Arogyadh/food-ordering"
             description="A FullStack food ordering app made with Nextjs , tailwindcss, NextAuth, MongoDB, Stripe etc. with Admin and Customer panels."
           />
           <ProjectCard
             src="/movie.png"
             title="Movie Ticketing App"
             href="https://tickticketing.netlify.app/"
+            code="https://github.com/Arogyadh/tickticketing"
             description="A Frontend Project thats fetches Movies Data from API and allows for ticket purchase using Next.js 14 / Tailwind "
           />
           <ProjectCard
             src="/NTB.png"
             title="NTB Website redesign"
             href="https://main--ntbnepal.netlify.app/"
+            code="https://github.com/Arogyadh/ntb"
             description="A Frontend Project showing different places in Nepal with a unique Style using Next.js 14 / Tailwind"
           />
           <ProjectCard
             src="/geritch.png"
             title="Restaurant Landing Page"
             href="https://geritch-arogya.netlify.app/"
+            code="https://github.com/Arogyadh/greicht"
             description="A Frontend Landing Page for a restaurant using React.js / GSAP"
           />
           <ProjectCard
             src="/travel.png"
             title="Travel Landing Page"
             href="https://kaleidoscopic-speculoos-59cd9b.netlify.app/"
+            code="https://github.com/Arogyadh/travel"
             description="A Frontend Landing Page for a travel app using Next.js 13 / Tailwindcss"
           />
 
@@ -58,12 +63,14 @@ const Projects = () => {
             src="/snoofy.png"
             title="Snoofy Web for my doggo"
             href="https://arogyadh.github.io/Website/"
+            code="https://github.com/Arogyadh/Website"
             description="A Starting Project featuring my doggo using HTML / CSS / JS / Bootstrap"
           />
           <ProjectCard
             src="/youtubeclone.png"
             title="Youtube Clone"
             href="https://y0utubecl0ne.netlify.app/"
+            code="https://github.com/Arogyadh/youtube_clone"
             description="A Frontend Project using API that clones youtube using React.js / MUI 5 / RapidAPI"
           />
         </div>
