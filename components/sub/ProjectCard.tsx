@@ -1,5 +1,6 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 interface Props {
   src: string;
@@ -9,15 +10,23 @@ interface Props {
 }
 
 const ProjectCard = ({ src, title, description, href }: Props) => {
+  const [hovered, setHovered] = useState(false);
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">
-      <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+      <div className="max-h-[350px] relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
         <Image
           src={src}
           alt={title}
           width={1000}
           height={1000}
-          className="w-full object-contain hover:opacity-[0.7]"
+          className="w-full object-contain "
+          style={{
+            filter: hovered ? "grayscale(0)" : "grayscale(70%)",
+            transform: hovered ? "scale(1.1)" : "scale(1)",
+            transition: "filter 0.3s ease, transform 0.3s ease",
+          }}
+          onMouseOver={() => setHovered(true)}
+          onMouseOut={() => setHovered(false)}
         />
         <div className="relative p-4">
           <h1 className="text-xl font-semibold text-white lg:text-2xl">
